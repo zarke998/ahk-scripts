@@ -7,3 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 !^F1::
 Run "C:\Users\Andrej\Documents\Visual Studio 2019\Projects\AnimeTime\AnimeTime.WebAPI\bin\AnimeTime.WebAPI.exe"
 return
+
+!^F2::
+Run "C:\Users\Andrej\Documents\Visual Studio 2019\Projects\WPFTest\WPFTest.sln"
+return
